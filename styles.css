@@ -1,22 +1,25 @@
-@import url("styles/header.css");
-
 :root{
+
     --cor-de-fundo: #EBECEE;
-    --branco: #ffff;
-    --amarelo: #FECD2F;
-    --rosa: #f41b9d;
-    --fonte-principal: "Poppins";
-    --fonte-secundaria: "Josefin Sans";
-    --preto: #000000;
+
 }
 
 body{
+
     background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+
 }
 
 h1{
     background-color: white;
 }
+
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block; /*habilita a manipulação de tamanho*/
+    background-image: url("Menu.svg");
+
+
+}
+
